@@ -5,15 +5,17 @@
     "theme": {
       "name": "default",
       "title": "Mobirise",
-      "styling": {}
+      "styling": {},
+      "additionalSetColors": []
     },
     "favicon": "@PROJECT_PATH@/assets/images/icon.fw.png",
     "noImageResize": "true",
     "cookiesAlert": "",
     "google-analytics": "",
     "versionFirst": "3.12.1",
-    "uniqCompNum": 29,
-    "versionPublish": "3.12.1"
+    "uniqCompNum": 57,
+    "versionPublish": "4.6.6",
+    "path": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
@@ -48,14 +50,14 @@
           "_name": "ext.menu",
           "_anchor": "ext_menu-0",
           "_params": {
-            "color": "#ffffff",
-            "hamburgerColor": "#553982",
-            "transparent": false,
-            "sticky": true,
-            "collapsed": false,
             "logo": true,
             "showBrand": true,
-            "showButtons": false
+            "showButtons": false,
+            "sticky": true,
+            "collapsed": false,
+            "transparent": false,
+            "color": "#ffffff",
+            "hamburgerColor": "#553982"
           },
           "logo": {
             "image": {
@@ -75,7 +77,7 @@
             }
           },
           "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"sobre_nos.html\">SOBRE NÓS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"servicos.html\">SERVIÇOS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">GALERIA</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"contato.html\">CONTATO</a></li>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"sobre_nos.html\">SOBRE NÓS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"servicos.html\">SERVIÇOS</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">GALERIA</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"contato.html\">CONTATO</a></li>",
           "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>"
         },
         {
@@ -94,8 +96,11 @@
           },
           "_params": {
             "autoplay": true,
+            "fullScreen": true,
             "paddingTop": 3,
             "paddingBottom": 3,
+            "showBullets": true,
+            "bgColor": "#ffffff",
             "slides": [
               {
                 "active": true,
@@ -103,7 +108,7 @@
                 "contentAlign": "right",
                 "overlay": true,
                 "showTitle": true,
-                "title": "QUALIDADE",
+                "title": "Realize seu sonho da casa própria.",
                 "showText": true,
                 "text": "Serviços de qualidade, garantindo sempre o melhor acabamento e satisfação dos nossos clientes ",
                 "showButtons": true,
@@ -133,10 +138,7 @@
                 "showButtons": true,
                 "buttons": " <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">SAIBA MAIS</a>"
               }
-            ],
-            "fullScreen": true,
-            "bgColor": "#ffffff",
-            "showBullets": true
+            ]
           },
           "_anchor": "slider-1",
           "articleLayout": false
@@ -148,27 +150,27 @@
           "_name": "features1",
           "_anchor": "features1-2",
           "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "parallax": false,
-            "bgImage": "images/bg3.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": "0",
-            "overlayColor": "#365d8f",
             "showHeader": false,
             "showSubheader": false,
-            "columns": 4,
             "showImages": true,
             "showTitles": true,
             "showCaptions": true,
-            "showButtons": true
+            "showButtons": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "columns": 4,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#365d8f",
+            "overlayOpacity": "0"
           },
           "headerAlign": "left",
           "header": "DROP-DEAD EASY WEBSITE MAKER",
@@ -179,9 +181,9 @@
               "src": "@PROJECT_PATH@/assets/images/mbr.jpg",
               "class": "mbr-figure__img",
               "width": 600,
-              "link": "",
-              "alt": "",
-              "title": "",
+              "link": "stellframe.html",
+              "alt": "STELL FRAME",
+              "title": "STELL FRAME",
               "linkInNewWindow": false
             },
             "video": {
@@ -195,17 +197,17 @@
             }
           },
           "title1": "STEEL FRAME",
-          "caption1": "Sed euismod a sem sit amet dignissim. Curabitur ipsum mauris, porttitor non blandit eget, convallis ultrices enim. Sed at urna ligula. Mauris eu massa facilisis, viverra eros a, hendrerit sapien.",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">SAIBA MAIS</a>",
+          "caption1": "É um Sistema construtivo que utiliza perfis estruturais de aço galvanizado para a montagem de painéis autoportantes.\nEstes painéis podem receber diferentes tipos de fechamentos, que são dispostos em camadas.<br>",
+          "button1": "<a data-app-btn=\"true\" href=\"stellframe.html\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">SAIBA MAIS</a>",
           "media2": {
             "image": {
               "active": true,
               "src": "@PROJECT_PATH@/assets/images/drywall.jpg",
               "class": "mbr-figure__img",
               "width": 600,
-              "link": "",
-              "alt": "",
-              "title": "",
+              "link": "drywall.html",
+              "alt": "DRY WALL",
+              "title": "DRY WALL",
               "linkInNewWindow": false
             },
             "video": {
@@ -219,17 +221,17 @@
             }
           },
           "title2": "DRY WALL",
-          "caption2": "Cras libero mi, gravida id sollicitudin at, blandit sit amet mauris. Curabitur vel dignissim elit. Sed sagittis odio vitae pellentesque faucibus. Quisque at semper nunc.",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">SAIBA MAIS</a>",
+          "caption2": "DryWall é uma expressão em inglês de: “Parede seca”, ou seja, não existe a necessidade do uso de água, argamassas e similares para a sua construção, como na alvenaria. <br><br>",
+          "button2": "<a data-app-btn=\"true\" href=\"drywall.html\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">SAIBA MAIS</a>",
           "media3": {
             "image": {
               "active": true,
               "src": "@PROJECT_PATH@/assets/images/coberturas.jpg",
               "class": "mbr-figure__img",
               "width": 600,
-              "link": "",
-              "alt": "",
-              "title": "",
+              "link": "coberturas.html",
+              "alt": "COBERTURAS",
+              "title": "COBERTURAS",
               "linkInNewWindow": false
             },
             "video": {
@@ -243,17 +245,17 @@
             }
           },
           "title3": "COBERTURAS",
-          "caption3": "Mauris ornare pulvinar lorem, non fermentum orci pulvinar sed. Sed fermentum neque ipsum, id egestas lorem varius sed. Sed magna risus, dictum eu ornare sed, tincidunt sit amet quam.",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">SAIBA MAIS</a>",
+          "caption3": "Uma das tendências no mercado imobiliário é fazer a cobertura dos imóveis em Light Steel Frame (LSF) – sistema construtivo estruturado em perfis de aço galvanizado a frio. <br><br>",
+          "button3": "<a data-app-btn=\"true\" href=\"coberturas.html\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">SAIBA MAIS</a>",
           "media4": {
             "image": {
               "active": true,
               "src": "@PROJECT_PATH@/assets/images/construcao-civil.jpg",
               "class": "mbr-figure__img",
               "width": 600,
-              "link": "",
-              "alt": "",
-              "title": "",
+              "link": "gerenciamento_projetos.html",
+              "alt": "GERENCIAMENTO EPROJETOS",
+              "title": "GERENCIAMENTO EPROJETOS",
               "linkInNewWindow": false
             },
             "video": {
@@ -266,9 +268,9 @@
               "size": 0
             }
           },
-          "title4": "CONSTRUÇÃO CIVIL",
-          "caption4": "Maecenas at pretium dolor. Sed viverra neque vel libero pellentesque faucibus. Aliquam sagittis elementum ligula a hendrerit. Nullam semper in nulla sed pellentesque. ",
-          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">SAIBA MAIS</a>",
+          "title4": "GERENCIAMENTO / PROJETOS",
+          "caption4": "A experiência de mais de cinco anos na elaboração de projetos executivos de arquitetura e engenharia, gerenciamento e execução de obras, aliando conhecimento, tecnologia, e criatividade.  ",
+          "button4": "<a data-app-btn=\"true\" href=\"gerenciamento_projetos.html\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">SAIBA MAIS</a>",
           "media5": {
             "image": {
               "active": true,
@@ -308,7 +310,12 @@
           },
           "title6": "HOST ANYWHERE",
           "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>"
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
+          "_styles": {
+            "P": {
+              "text-align": "center"
+            }
+          }
         },
         {
           "_tags": [
@@ -328,13 +335,13 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": true,
-            "parallax": true,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr.jpg",
-            "bgColor": "#3c3c3c",
+            "parallax": true,
             "bgColorRadio": false,
+            "bgColor": "#3c3c3c",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#28324e"
+            "overlayColor": "#28324e",
+            "overlayOpacity": 0.8
           },
           "logo": {
             "image": {
@@ -353,8 +360,8 @@
               "size": 0
             }
           },
-          "text1": "<strong>ENDEREÇO</strong><br>Rua das Santa Gertrudes, 123<br>Jd. Pq. José<br>CEP: 18070-440 - Sorocaba - SP<br>",
-          "text2": "<strong>CONTATO</strong><br>Email: contato@frameforte.com.br<br>Fone: (15) 3342-3799<br>",
+          "text1": "<strong>ENDEREÇO</strong><br>Alameda Santos, 220 &nbsp;- Jardim Sairá<br>CEP: 18085-190 - Sorocaba - SP&nbsp;<br>",
+          "text2": "<strong>CONTATO</strong><br>Email: <a href=\"mailto:contato@frameforte.com.br\" class=\"text-white\">contato@frameforte.com.br</a><br>Fone: (15) 3342-3799<br>",
           "text3": "<ul class=\"mbr-contacts__list\"></ul>"
         },
         {
@@ -373,13 +380,13 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "images/bg3.jpg",
-            "bgColor": "#365d8f",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#365d8f",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
           },
           "text": "<b>Copyright (c) 2017 FRAME FORTE - Engenharia</b><br>desenvolvimento: <a href=\"http://www.chiquitodesign.com.br\" target=\"_blank\" class=\"text-warning\">Chiquito!Design</a>"
         }
@@ -388,7 +395,8 @@
     "sobre_nos.html": {
       "settings": {
         "title": "Conheça mais sobre a FrameForte - Engenharia",
-        "meta_descr": "Dry Wall, Steel Frame, Coberturas, Construção civil "
+        "meta_descr": "Dry Wall, Steel Frame, Coberturas, Construção civil ",
+        "order": 1
       },
       "components": [
         {
@@ -413,26 +421,26 @@
           "_name": "msg-box4",
           "_anchor": "msg-box4-e",
           "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": false,
+            "inverse": false,
             "imageSize": 50,
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "images/bg3.jpg",
-            "bgColor": "#efefef",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#efefef",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "inverse": false,
-            "showTitle": true,
-            "showMeta": false,
-            "showText": true,
-            "showButtons": false
+            "overlayOpacity": 0.5
           },
           "media": {
             "image": {
@@ -460,7 +468,7 @@
           "headerAlign": "left",
           "title": "CONHEÇA MAIS SOBRE A<br>FRAME FORTE",
           "meta": "By John Smith posted July 30, 2015",
-          "text": "<p>Somos a FRAME FORTE - ENGENHARIA. Empresa de construção civil que trabalha desde 2013 acompanhando a evolução das diversas áreas da Construção Civil e da Arquitetura para oferecer a mais completa variedade de serviços aos nossos clientes.<br></p><p>​</p><p>Utilizamos métodos modernos e seguros com comprovada experiência para realizar e transformar espaços e ambientes com aplicação de todas as técnicas disponíveis no mercado, desde a mais tradicional até as mais recentes tendências de design e tecnologia de materiais.</p><p>​</p><p>Garantimos a segurança de um serviço profissional com preços acessíveis e alto nível de qualidade, pois a satisfação dos nossos clientes é a razão do nosso contínuo crescimento.</p><p>Nossa equipe técnica especializada na realização de projetos de engenharia e arquitetura conta com profissionais de diversas áreas. Nossos serviços incluem obras de construção, reforma, projetos, manutenção, legalização, impermeabilização e instalação em obras industriais e comerciais. Estudamos formas de pagamento e parcelamento conforme disponibilidade. Agende a visita de um de nossos profissionais e solicite um orçamento.</p>",
+          "text": "<p>Nós da Frame Forte Engenharia, somos uma empresa de construção civil, com foco em projetos e execução de construções em Steel Frame e DryWall, atuando em Sorocaba e região a mais de 5 anos, somos referência de qualidade, pontualidade e bom desempenho em nossas obras.\n</p><p>Utilizamos métodos modernos e seguros com comprovada experiência para realizar e transformar espaços e ambientes com aplicação de todas as técnicas disponíveis no mercado, desde a mais tradicional até as mais recentes tendências de design e tecnologia de materiais.\n</p><p>Nossa equipe técnica é especializada na realização de projetos de engenharia e arquitetura, e conta com profissionais de diversas áreas.\n</p><p>Nossos serviços incluem, construção seca (Steel Frame e Dry Wall), consultoria, projetos, coberturas e instalações elétricas e hidráulicas em obras residenciais e comerciais.\n</p><p>Fazemos desde o projeto ao acabamento, e garantimos a segurança de um serviço profissional com preços acessíveis e alto nível de qualidade, pois a satisfação dos nossos clientes é a razão do nosso contínuo crescimento Agende a visita de um de nossos profissionais e solicite um orçamento.\n</p><p><br></p>",
           "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>"
         },
         {
@@ -485,14 +493,14 @@
           "_name": "ext.menu",
           "_anchor": "ext_menu-7",
           "_params": {
-            "color": "#ffffff",
-            "hamburgerColor": "#553982",
-            "transparent": false,
-            "sticky": true,
-            "collapsed": false,
             "logo": true,
             "showBrand": true,
-            "showButtons": false
+            "showButtons": false,
+            "sticky": true,
+            "collapsed": false,
+            "transparent": false,
+            "color": "#ffffff",
+            "hamburgerColor": "#553982"
           },
           "logo": {
             "image": {
@@ -512,7 +520,7 @@
             }
           },
           "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"sobre_nos.html\">SOBRE NÓS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"servicos.html\">SERVIÇOS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">GALERIA</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"contato.html\">CONTATO</a></li>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"sobre_nos.html\">SOBRE NÓS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"servicos.html\">SERVIÇOS</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">GALERIA</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"contato.html\">CONTATO</a></li>",
           "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>"
         },
         {
@@ -533,13 +541,13 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": true,
-            "parallax": true,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr.jpg",
-            "bgColor": "#3c3c3c",
+            "parallax": true,
             "bgColorRadio": false,
+            "bgColor": "#3c3c3c",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#28324e"
+            "overlayColor": "#28324e",
+            "overlayOpacity": 0.8
           },
           "logo": {
             "image": {
@@ -558,8 +566,8 @@
               "size": 0
             }
           },
-          "text1": "<strong>ENDEREÇO</strong><br>Rua das Santa Gertrudes, 123<br>Jd. Pq. José<br>CEP: 18070-440 - Sorocaba - SP<br>",
-          "text2": "<strong>CONTATO</strong><br>Email: contato@frameforte.com.br<br>Fone: (15) 3342-3799<br>",
+          "text1": "<strong>ENDEREÇO</strong><br>Alameda Santos, 220 &nbsp;- Jardim Sairá<br>CEP: 18085-190 - Sorocaba - SP&nbsp;<br>",
+          "text2": "<strong>CONTATO</strong><br>Email: <a href=\"mailto:contato@frameforte.com.br\" class=\"text-white\">contato@frameforte.com.br</a><br>Fone: (15) 3342-3799<br>",
           "text3": "<ul class=\"mbr-contacts__list\"></ul>"
         },
         {
@@ -577,13 +585,13 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "images/bg3.jpg",
-            "bgColor": "#444444",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#444444",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
           },
           "text": "<b>Copyright (c) 2017 FRAME FORTE - Engenharia</b><br>desenvolvimento: <a href=\"http://www.chiquitodesign.com.br\" target=\"_blank\" class=\"text-warning\">Chiquito!Design</a>"
         }
@@ -592,7 +600,8 @@
     "servicos.html": {
       "settings": {
         "title": "FRAME FORTE ENGENHARIA - NOSSOS SERVIÇOS",
-        "meta_descr": "Dry Wall, Steel Frame, Coberturas, Construção Civil"
+        "meta_descr": "Dry Wall, Steel Frame, Coberturas, Construção Civil",
+        "order": 2
       },
       "components": [
         {
@@ -617,14 +626,14 @@
           "_name": "ext.menu",
           "_anchor": "ext_menu-f",
           "_params": {
-            "color": "#ffffff",
-            "hamburgerColor": "#553982",
-            "transparent": false,
-            "sticky": true,
-            "collapsed": false,
             "logo": true,
             "showBrand": true,
-            "showButtons": false
+            "showButtons": false,
+            "sticky": true,
+            "collapsed": false,
+            "transparent": false,
+            "color": "#ffffff",
+            "hamburgerColor": "#553982"
           },
           "logo": {
             "image": {
@@ -644,7 +653,7 @@
             }
           },
           "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"sobre_nos.html\">SOBRE NÓS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"servicos.html\">SERVIÇOS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">GALERIA</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"contato.html\">CONTATO</a></li>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"sobre_nos.html\">SOBRE NÓS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"servicos.html\">SERVIÇOS</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">GALERIA</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"contato.html\">CONTATO</a></li>",
           "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>"
         },
         {
@@ -669,26 +678,26 @@
           "_name": "msg-box4",
           "_anchor": "msg-box4-i",
           "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": true,
+            "inverse": false,
             "imageSize": 50,
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "images/bg3.jpg",
-            "bgColor": "#efefef",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#efefef",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "inverse": false,
-            "showTitle": true,
-            "showMeta": false,
-            "showText": true,
-            "showButtons": true
+            "overlayOpacity": 0.5
           },
           "media": {
             "image": {
@@ -716,8 +725,8 @@
           "headerAlign": "left",
           "title": "STEEL FRAME",
           "meta": "By John Smith posted July 30, 2015",
-          "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eros mi, aliquam at mattis ac, euismod volutpat risus. Donec vel turpis eget nisi egestas vulputate. Praesent eu purus sagittis, pharetra purus non, dictum dui.&nbsp;</p>",
-          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-info\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">SAIBA MAIS</a>"
+          "text": "<p>É um Sistema construtivo que utiliza perfis estruturais de aço galvanizado para a montagem de painéis autoportantes.\n</p><p>Estes painéis podem receber diferentes tipos de fechamentos, que são dispostos em camadas sucessivas. A qualidade constritiva de alto desempenho no sistema, permite alta eficiência e precisão em pontos que na alvenaria é critica, como acabamento e alinhamento. Fundações mais simples, devido ao reduzido peso da construção e a uniformidade da distribuição dos esforços através de paredes leves e uniformes. Proporciona redução do custo da fundação em cerca de 50% por metro quadrado se comparada ao convencional; Para a maioria das pessoas esta característica torna-se o principal benefício que este processo pode trazer, especialmente porque é este mesmo aspecto que torna a sua nova habitação economicamente acessível apesar de sua alta qualidade.</p>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-info\" href=\"stellframe.html\" data-toolbar=\"-mbrBtnMove\">SAIBA MAIS</a>"
         },
         {
           "_inherit": "msg-box5",
@@ -741,26 +750,26 @@
           "_name": "msg-box4",
           "_anchor": "msg-box4-j",
           "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": true,
+            "inverse": true,
             "imageSize": 50,
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "images/bg3.jpg",
-            "bgColor": "#ffffff",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "inverse": true,
-            "showTitle": true,
-            "showMeta": false,
-            "showText": true,
-            "showButtons": true
+            "overlayOpacity": 0.5
           },
           "media": {
             "image": {
@@ -788,8 +797,8 @@
           "headerAlign": "left",
           "title": "DRY WALL",
           "meta": "By John Smith posted July 30, 2015",
-          "text": "<p>Integer ultrices felis id luctus dignissim. Suspendisse potenti. Aenean ut bibendum erat, quis vulputate sem. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>",
-          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-info\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">SAIBA MAIS</a>"
+          "text": "<p>DryWall é uma expressão em inglês de: “Parede seca”, ou seja, não existe a necessidade do uso de água, argamassas e similares para a sua construção, como na alvenaria. \r</p><p>É uma tecnologia que substitui as vedações internas convencionais que utilizam tijolos, blocos, areia, cimento, argamassas, etc..  ela necessita apenas de perfis metálicos, e chapas de gesso aparafusadas.\r</p>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-info\" href=\"drywall.html\" data-toolbar=\"-mbrBtnMove\">SAIBA MAIS</a>"
         },
         {
           "_inherit": "msg-box5",
@@ -813,26 +822,26 @@
           "_name": "msg-box4",
           "_anchor": "msg-box4-r",
           "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": true,
+            "inverse": false,
             "imageSize": 50,
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "images/bg3.jpg",
-            "bgColor": "#efefef",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#efefef",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "inverse": false,
-            "showTitle": true,
-            "showMeta": false,
-            "showText": true,
-            "showButtons": true
+            "overlayOpacity": 0.5
           },
           "media": {
             "image": {
@@ -860,8 +869,8 @@
           "headerAlign": "left",
           "title": "COBERTURAS",
           "meta": "By John Smith posted July 30, 2015",
-          "text": "<p>Integer ultrices felis id luctus dignissim. Suspendisse potenti. Aenean ut bibendum erat, quis vulputate sem. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>",
-          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-info\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">SAIBA MAIS</a>"
+          "text": "<p>Uma das tendências no mercado imobiliário é fazer a cobertura dos imóveis em Light Steel Frame (LSF) – sistema construtivo estruturado em perfis de aço galvanizado a frio. O uso desse sistema muito utilizado em países subdesenvolvidos como Estados Unidos e Japão, traz economia, redução dos resíduos descartados e rapidez na montagem, fatores que mais impactam nas construções atuais. A Frame Forte Engenharia utiliza desse método buscando maior praticidades para seus clientes. Os telhados feitos em LSF se tornaram uma das melhores opções para a cobertura.</p>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-info\" href=\"coberturas.html\" data-toolbar=\"-mbrBtnMove\">SAIBA MAIS</a>"
         },
         {
           "_inherit": "msg-box5",
@@ -885,26 +894,26 @@
           "_name": "msg-box4",
           "_anchor": "msg-box4-s",
           "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": true,
+            "inverse": true,
             "imageSize": 50,
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "images/bg3.jpg",
-            "bgColor": "#ffffff",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "inverse": true,
-            "showTitle": true,
-            "showMeta": false,
-            "showText": true,
-            "showButtons": true
+            "overlayOpacity": 0.5
           },
           "media": {
             "image": {
@@ -930,10 +939,10 @@
             }
           },
           "headerAlign": "left",
-          "title": "CONSTRUÇÃO CIVIL",
+          "title": "GERENCIAMENTO E PROJETOS",
           "meta": "By John Smith posted July 30, 2015",
-          "text": "<p>Integer ultrices felis id luctus dignissim. Suspendisse potenti. Aenean ut bibendum erat, quis vulputate sem. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>",
-          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-info\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">SAIBA MAIS</a>"
+          "text": "<p>A experiência de mais de cinco anos na elaboração de projetos executivos de arquitetura e engenharia, gerenciamento e execução de obras, aliando conhecimento, tecnologia, e criatividade.</p>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-info\" href=\"gerenciamento_projetos.html\" data-toolbar=\"-mbrBtnMove\">SAIBA MAIS</a>"
         },
         {
           "_tags": [
@@ -953,13 +962,13 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": true,
-            "parallax": true,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr.jpg",
-            "bgColor": "#3c3c3c",
+            "parallax": true,
             "bgColorRadio": false,
+            "bgColor": "#3c3c3c",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#28324e"
+            "overlayColor": "#28324e",
+            "overlayOpacity": 0.8
           },
           "logo": {
             "image": {
@@ -978,8 +987,8 @@
               "size": 0
             }
           },
-          "text1": "<strong>ENDEREÇO</strong><br>Rua das Santa Gertrudes, 123<br>Jd. Pq. José<br>CEP: 18070-440 - Sorocaba - SP<br>",
-          "text2": "<strong>CONTATO</strong><br>Email: contato@frameforte.com.br<br>Fone: (15) 3342-3799<br>",
+          "text1": "<strong>ENDEREÇO</strong><br>Alameda Santos, 220 &nbsp;- Jardim Sairá<br>CEP: 18085-190 - Sorocaba - SP&nbsp;<br>",
+          "text2": "<strong>CONTATO</strong><br>Email: <a href=\"mailto:contato@frameforte.com.br\" class=\"text-white\">contato@frameforte.com.br</a><br>Fone: (15) 3342-3799<br>",
           "text3": "<ul class=\"mbr-contacts__list\"></ul>"
         },
         {
@@ -997,13 +1006,13 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "images/bg3.jpg",
-            "bgColor": "#444444",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#444444",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
           },
           "text": "<b>Copyright (c) 2017 FRAME FORTE - Engenharia</b><br>desenvolvimento: <a href=\"http://www.chiquitodesign.com.br\" target=\"_blank\" class=\"text-warning\">Chiquito!Design</a>"
         }
@@ -1012,7 +1021,8 @@
     "contato.html": {
       "settings": {
         "title": "FRAME FORTE - FALE CONOSCO",
-        "meta_descr": "Ente em contato com a Frame Forte Engenharia - Dry Wall, Steel Frame, Coberturas, Construção Civil"
+        "meta_descr": "Ente em contato com a Frame Forte Engenharia - Dry Wall, Steel Frame, Coberturas, Construção Civil",
+        "order": 7
       },
       "components": [
         {
@@ -1037,14 +1047,14 @@
           "_name": "ext.menu",
           "_anchor": "ext_menu-k",
           "_params": {
-            "color": "#ffffff",
-            "hamburgerColor": "#553982",
-            "transparent": false,
-            "sticky": true,
-            "collapsed": false,
             "logo": true,
             "showBrand": true,
-            "showButtons": false
+            "showButtons": false,
+            "sticky": true,
+            "collapsed": false,
+            "transparent": false,
+            "color": "#ffffff",
+            "hamburgerColor": "#553982"
           },
           "logo": {
             "image": {
@@ -1064,7 +1074,7 @@
             }
           },
           "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"sobre_nos.html\">SOBRE NÓS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"servicos.html\">SERVIÇOS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">GALERIA</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"contato.html\">CONTATO</a></li>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"sobre_nos.html\">SOBRE NÓS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"servicos.html\">SERVIÇOS</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">GALERIA</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"contato.html\">CONTATO</a></li>",
           "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>"
         },
         {
@@ -1074,17 +1084,17 @@
           "_name": "form1",
           "_anchor": "form1-n",
           "_params": {
+            "showTitle": true,
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "images/bg3.jpg",
-            "bgColor": "#efefef",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#efefef",
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showTitle": true
+            "overlayOpacity": 0.5
           },
           "title": "FALE CONOSCO",
           "form": {
@@ -1149,13 +1159,13 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": true,
-            "parallax": true,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr.jpg",
-            "bgColor": "#3c3c3c",
+            "parallax": true,
             "bgColorRadio": false,
+            "bgColor": "#3c3c3c",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#28324e"
+            "overlayColor": "#28324e",
+            "overlayOpacity": 0.8
           },
           "logo": {
             "image": {
@@ -1174,8 +1184,8 @@
               "size": 0
             }
           },
-          "text1": "<strong>ENDEREÇO</strong><br>Rua das Santa Gertrudes, 123<br>Jd. Pq. José<br>CEP: 18070-440 - Sorocaba - SP<br>",
-          "text2": "<strong>CONTATO</strong><br>Email: contato@frameforte.com.br<br>Fone: (15) 3342-3799<br>",
+          "text1": "<strong>ENDEREÇO</strong><br>Alameda Santos, 220 &nbsp;- Jardim Sairá<br>CEP: 18085-190 - Sorocaba - SP&nbsp;<br>",
+          "text2": "<strong>CONTATO</strong><br>Email: <a href=\"mailto:contato@frameforte.com.br\" class=\"text-white\">contato@frameforte.com.br</a><br>Fone: (15) 3342-3799<br>",
           "text3": "<ul class=\"mbr-contacts__list\"></ul>"
         },
         {
@@ -1194,15 +1204,871 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "images/bg3.jpg",
-            "bgColor": "#365d8f",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#365d8f",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
           },
           "text": "<b>Copyright (c) 2017 FRAME FORTE - Engenharia</b><br>desenvolvimento: <a href=\"http://www.chiquitodesign.com.br\" target=\"_blank\" class=\"text-warning\">Chiquito!Design</a>"
+        }
+      ]
+    },
+    "stellframe.html": {
+      "settings": {
+        "meta_descr": "É um Sistema construtivo que utiliza perfis estruturais de aço galvanizado para a montagem de painéis autoportantes.",
+        "title": "Stell Frame",
+        "order": 3
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#ffffff"
+            },
+            ".mbr-navbar__section": {
+              "background": "#ffffff"
+            },
+            ".mbr-navbar__hamburger": {
+              "color": "#553982"
+            }
+          },
+          "_name": "ext.menu",
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "showButtons": false,
+            "sticky": true,
+            "collapsed": false,
+            "transparent": false,
+            "color": "#ffffff",
+            "hamburgerColor": "#553982"
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo.png",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"sobre_nos.html\">SOBRE NÓS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"servicos.html\">SERVIÇOS</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">GALERIA</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"contato.html\">CONTATO</a></li>",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>",
+          "_anchor": "ext_menu-t"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_params": {
+            "showTitle": true,
+            "showMeta": true,
+            "showText": true,
+            "showButtons": false,
+            "inverse": false,
+            "imageSize": 50,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#efefef",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/mbr.jpg",
+              "link": "",
+              "alt": "stell frame",
+              "title": ""
+            },
+            "video": {
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "STEEL FRAME",
+          "text": "<p><b>CARACTERÍSTICAS:</b></p><p></p><p>\n• Menor custo na mão de obra sendo 70% em materiais e 30% de mão de-obra.\n</p><p></p><p>\n• Controle do fluxo financeiro, fidelidade orçamentária\n</p><p></p><p>\n• Menor tempo de construção e retorno do investimento.\n</p><p></p><p>\n• Total Flexibilidade na Arquitetura\n</p><p></p><p>\n• Leveza de carga na estrutura\n</p><p></p><p>\n• Facilidade de acesso a instalações elétricas e hidráulicas\n</p><p></p><p>\n• Limpeza no canteiro de obras\n</p><p></p><p>\n• Alta produtividade : Construção a seco\n</p><p></p><p>\n• Redução de desperdícios\n</p><p></p><p>\n• Acabamentos sem trincas\n</p><p></p><p>\n• Facilidade de montagem, manuseio e transporte\n</p><p></p><p>\n• Rapidez de execução / Redução de prazos\n</p><p></p><p>\n• Excelente desempenho térmico e acústico\n</p><p></p><p>\n• Otimização de custos\n</p><p></p><p>\n• Construção sustentável com Baixo impacto ambiental</p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".mbr-header__text": {
+              "color": "#553982"
+            },
+            ".mbr-header__subtext": {
+              "color": "#28324e"
+            },
+            ".mbr-article": {
+              "color": "#ffffff"
+            },
+            ".mbr-article P": {
+              "color": "#553982"
+            }
+          },
+          "headerAlign": "left",
+          "meta": "O nome completo em inglês é Light Gauge Steel Framing ou quadro de aço de pequena espessura.",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">LEARN MORE</a>",
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-10"
+        },
+        {
+          "text": "<p>\n</p><div><b>BASES TÉCNICAS</b><br><br></div><div>\n</div><div>• Extremamente duráveis, NÃO enferrujam.\n</div><div>• Base NBR 14762, NBR 6649, NBR 15253.\n</div><div>• Vigas rigorosamente lineares e uniformes.\n</div><div>• 67% mais leves que a madeira, e muito mais resistentes.\n</div><div>• Construção rápida e sem desperdícios.\n</div><div>• Durabilidade acima de 250 anos.\n</div><div>• Produto ecologicamente sustentável.\n</div><div>• Construções em steel Framing são muito fieis ao orçamento estimativo inicial, podendo haver uma diferença no final de no máximo 4% do valor estimado, enquanto alvenaria chega a 30%.</div>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-11",
+          "_styles": {
+            "DIV": {
+              "color": "#553982"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showText": false,
+            "outside": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/comparativo-1.jpg",
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "link": "",
+              "alt": "comparativo",
+              "title": ""
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "text": "",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image2",
+          "_anchor": "image2-13"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_styles": {
+            "STRONG": {
+              "color": "#ffffff"
+            },
+            "P": {
+              "color": "#ffffff"
+            }
+          },
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#3c3c3c",
+            "overlay": true,
+            "overlayColor": "#28324e",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/logo-branco.png",
+              "class": "mbr-contacts__img mbr-contacts__img--left",
+              "width": 265,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "text1": "<strong>ENDEREÇO</strong><br>Alameda Santos, 220 &nbsp;- Jardim Sairá<br>CEP: 18085-190 - Sorocaba - SP&nbsp;<br>",
+          "text2": "<strong>CONTATO</strong><br>Email: <a href=\"mailto:contato@frameforte.com.br\" class=\"text-white\">contato@frameforte.com.br</a><br>Fone: (15) 3342-3799<br>",
+          "text3": "<ul class=\"mbr-contacts__list\"></ul>",
+          "_anchor": "contacts1-u"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_styles": {
+            "P": {
+              "text-align": "center"
+            }
+          },
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#444444",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "<b>Copyright (c) 2017 FRAME FORTE - Engenharia</b><br>desenvolvimento: <a href=\"http://www.chiquitodesign.com.br\" target=\"_blank\" class=\"text-warning\">Chiquito!Design</a>",
+          "_anchor": "footer1-v"
+        }
+      ]
+    },
+    "drywall.html": {
+      "settings": {
+        "meta_descr": "DryWall é uma expressão em inglês de: “Parede seca”, ou seja, não existe a necessidade do uso de água, argamassas e similares para a sua construção, como na alvenaria. ",
+        "title": "Dry Wall",
+        "order": 4
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#ffffff"
+            },
+            ".mbr-navbar__section": {
+              "background": "#ffffff"
+            },
+            ".mbr-navbar__hamburger": {
+              "color": "#553982"
+            }
+          },
+          "_name": "ext.menu",
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "showButtons": false,
+            "sticky": true,
+            "collapsed": false,
+            "transparent": false,
+            "color": "#ffffff",
+            "hamburgerColor": "#553982"
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo.png",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"sobre_nos.html\">SOBRE NÓS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"servicos.html\">SERVIÇOS</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">GALERIA</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"contato.html\">CONTATO</a></li>",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>",
+          "_anchor": "ext_menu-17"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": false,
+            "inverse": false,
+            "imageSize": 50,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#efefef",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/drywall.jpg",
+              "link": "",
+              "alt": "dry wall",
+              "title": ""
+            },
+            "video": {
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "DRY WALL",
+          "text": "<p>Este metódo construtivo, é mais leve, pesando apenas 25kg por m² comparado com a alvenaria que pesa em torno de 150kg por m², e podem ser executadas paredes com diversas espessuras, são itens fabricados industrialmente com rigorosa regularidade, por serem  padronizados, a facilidade para sua montagem diminuem consideravelmente o desperdício de materiais, limpeza da obra, sem necessidade de reforços estruturais e velocidade para o término, por ter uma superfície lisa, a utilização de massas e regularização é mínima, diminuindo o custo para pintura e acabamentos.\n</p><p>\nEste sistema é usado apenas em ambientes internos, para fechamentos externos, é necessário a utilização de (Steel Frame) perfis em aço galvanizado estrutural, chapas cimentícias e tratamentos externos que não são utilizados no DryWall.&nbsp;</p><p>&nbsp;\nAs chapas de gesso são produzidas de acordo com as seguintes Normas ABNT (Associação Brasileira de Normas Técnicas): NBR 14715:2001, NBR 14716:2001 e NBR 14717:2001.&nbsp;</p><p><b><br></b></p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".mbr-header__text": {
+              "color": "#553982"
+            },
+            ".mbr-header__subtext": {
+              "color": "#28324e"
+            },
+            ".mbr-article": {
+              "color": "#ffffff"
+            },
+            ".mbr-article P": {
+              "color": "#553982"
+            }
+          },
+          "headerAlign": "left",
+          "meta": "O nome completo em inglês é Light Gauge Steel Framing ou quadro de aço de pequena espessura.",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">LEARN MORE</a>",
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-18"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_styles": {
+            "STRONG": {
+              "color": "#ffffff"
+            },
+            "P": {
+              "color": "#ffffff"
+            }
+          },
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#3c3c3c",
+            "overlay": true,
+            "overlayColor": "#28324e",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/logo-branco.png",
+              "class": "mbr-contacts__img mbr-contacts__img--left",
+              "width": 265,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "text1": "<strong>ENDEREÇO</strong><br>Alameda Santos, 220 &nbsp;- Jardim Sairá<br>CEP: 18085-190 - Sorocaba - SP&nbsp;<br>",
+          "text2": "<strong>CONTATO</strong><br>Email: <a href=\"mailto:contato@frameforte.com.br\" class=\"text-white\">contato@frameforte.com.br</a><br>Fone: (15) 3342-3799<br>",
+          "text3": "<ul class=\"mbr-contacts__list\"></ul>",
+          "_anchor": "contacts1-1b"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_styles": {
+            "P": {
+              "text-align": "center"
+            }
+          },
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#444444",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "<b>Copyright (c) 2017 FRAME FORTE - Engenharia</b><br>desenvolvimento: <a href=\"http://www.chiquitodesign.com.br\" target=\"_blank\" class=\"text-warning\">Chiquito!Design</a>",
+          "_anchor": "footer1-1c"
+        }
+      ]
+    },
+    "coberturas.html": {
+      "settings": {
+        "meta_descr": "Uma das tendências no mercado imobiliário é fazer a cobertura dos imóveis em Light Steel Frame (LSF) – sistema construtivo estruturado em perfis de aço galvanizado a frio. ",
+        "title": "Coberturas",
+        "order": 5
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#ffffff"
+            },
+            ".mbr-navbar__section": {
+              "background": "#ffffff"
+            },
+            ".mbr-navbar__hamburger": {
+              "color": "#553982"
+            }
+          },
+          "_name": "ext.menu",
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "showButtons": false,
+            "sticky": true,
+            "collapsed": false,
+            "transparent": false,
+            "color": "#ffffff",
+            "hamburgerColor": "#553982"
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo.png",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"sobre_nos.html\">SOBRE NÓS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"servicos.html\">SERVIÇOS</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">GALERIA</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"contato.html\">CONTATO</a></li>",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>",
+          "_anchor": "ext_menu-1d"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": false,
+            "inverse": false,
+            "imageSize": 50,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#efefef",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/coberturas.jpg",
+              "link": "",
+              "alt": "COBERTURAS",
+              "title": ""
+            },
+            "video": {
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "COBERTURAS",
+          "text": "<p>Os telhados feitos com os perfis de aço galvanizado, 3 vezes mais leve do que madeira, tornam a obra sustentável, pois não há desperdício nem sobra do material. Extremamente duráveis, os perfis tem vida útil superior a 100 anos, não enferrujam e livre de pragas (cupim). \r</p><p>Utilizados para qualquer tipo de cobertura seja comercial, residencial ou predial, atendendo também telhados tipo Shingle (sistema americano de cobertura).\r</p><p>Construção rápida e limpa, produto ecologicamente sustentável (100% reciclável, dispensando a derrubada de madeira não-certificada).\r</p><p><br></p><p><b><br></b></p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".mbr-header__text": {
+              "color": "#553982"
+            },
+            ".mbr-header__subtext": {
+              "color": "#28324e"
+            },
+            ".mbr-article": {
+              "color": "#ffffff"
+            },
+            ".mbr-article P": {
+              "color": "#553982"
+            }
+          },
+          "headerAlign": "left",
+          "meta": "O nome completo em inglês é Light Gauge Steel Framing ou quadro de aço de pequena espessura.",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">LEARN MORE</a>",
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-1e"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_styles": {
+            "STRONG": {
+              "color": "#ffffff"
+            },
+            "P": {
+              "color": "#ffffff"
+            }
+          },
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#3c3c3c",
+            "overlay": true,
+            "overlayColor": "#28324e",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/logo-branco.png",
+              "class": "mbr-contacts__img mbr-contacts__img--left",
+              "width": 265,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "text1": "<strong>ENDEREÇO</strong><br>Alameda Santos, 220 &nbsp;- Jardim Sairá<br>CEP: 18085-190 - Sorocaba - SP&nbsp;<br>",
+          "text2": "<strong>CONTATO</strong><br>Email: <a href=\"mailto:contato@frameforte.com.br\" class=\"text-white\">contato@frameforte.com.br</a><br>Fone: (15) 3342-3799<br>",
+          "text3": "<ul class=\"mbr-contacts__list\"></ul>",
+          "_anchor": "contacts1-1f"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_styles": {
+            "P": {
+              "text-align": "center"
+            }
+          },
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#444444",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "<b>Copyright (c) 2017 FRAME FORTE - Engenharia</b><br>desenvolvimento: <a href=\"http://www.chiquitodesign.com.br\" target=\"_blank\" class=\"text-warning\">Chiquito!Design</a>",
+          "_anchor": "footer1-1g"
+        }
+      ]
+    },
+    "gerenciamento_projetos.html": {
+      "settings": {
+        "meta_descr": "A experiência de mais de cinco anos na elaboração de projetos executivos de arquitetura e engenharia, gerenciamento e execução de obras, aliando conhecimento, tecnologia, e criatividade. ",
+        "title": "Gerenciamento e projetos",
+        "order": 6
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#ffffff"
+            },
+            ".mbr-navbar__section": {
+              "background": "#ffffff"
+            },
+            ".mbr-navbar__hamburger": {
+              "color": "#553982"
+            }
+          },
+          "_name": "ext.menu",
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "showButtons": false,
+            "sticky": true,
+            "collapsed": false,
+            "transparent": false,
+            "color": "#ffffff",
+            "hamburgerColor": "#553982"
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo.png",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"sobre_nos.html\">SOBRE NÓS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"servicos.html\">SERVIÇOS</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">GALERIA</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-info\" data-app-selector=\".mbr-navbar__items a\" href=\"contato.html\">CONTATO</a></li>",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>",
+          "_anchor": "ext_menu-1h"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": false,
+            "inverse": false,
+            "imageSize": 50,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#efefef",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/coberturas.jpg",
+              "link": "",
+              "alt": "COBERTURAS",
+              "title": ""
+            },
+            "video": {
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "GERENCIAMENTO E PROJETOS",
+          "text": "<p>Profissionais preparados e responsáveis tem como missão, solucionar as diversas necessidades dos empreendimentos com funcionalidade, qualidade e sustentabilidade.\n</p><p>Nosso gerenciamento é planejado na integra com plataformas especializadas, cronogramas físico e financeiro para maior transparência para nossos clientes.\n</p><p><br></p><p>Todos os nossos projetos acervados e aprovados por: &nbsp;</p><p><b><br></b></p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".mbr-header__text": {
+              "color": "#553982"
+            },
+            ".mbr-header__subtext": {
+              "color": "#28324e"
+            },
+            ".mbr-article": {
+              "color": "#ffffff"
+            },
+            ".mbr-article P": {
+              "color": "#553982"
+            }
+          },
+          "headerAlign": "left",
+          "meta": "O nome completo em inglês é Light Gauge Steel Framing ou quadro de aço de pequena espessura.",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">LEARN MORE</a>",
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-1i"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_styles": {
+            "STRONG": {
+              "color": "#ffffff"
+            },
+            "P": {
+              "color": "#ffffff"
+            }
+          },
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#3c3c3c",
+            "overlay": true,
+            "overlayColor": "#28324e",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/logo-branco.png",
+              "class": "mbr-contacts__img mbr-contacts__img--left",
+              "width": 265,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "text1": "<strong>ENDEREÇO</strong><br>Alameda Santos, 220 &nbsp;- Jardim Sairá<br>CEP: 18085-190 - Sorocaba - SP&nbsp;<br>",
+          "text2": "<strong>CONTATO</strong><br>Email: <a href=\"mailto:contato@frameforte.com.br\" class=\"text-white\">contato@frameforte.com.br</a><br>Fone: (15) 3342-3799<br>",
+          "text3": "<ul class=\"mbr-contacts__list\"></ul>",
+          "_anchor": "contacts1-1j"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_styles": {
+            "P": {
+              "text-align": "center"
+            }
+          },
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#444444",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "<b>Copyright (c) 2017 FRAME FORTE - Engenharia</b><br>desenvolvimento: <a href=\"http://www.chiquitodesign.com.br\" target=\"_blank\" class=\"text-warning\">Chiquito!Design</a>",
+          "_anchor": "footer1-1k"
         }
       ]
     }
